@@ -1,0 +1,96 @@
+Unary operator =  -- ++ ! 
+
+Binary Operator = + - / *
+
+Friend Function : If a function is defined as a friend function then, the private and protected 
+                  data of a class can be accessed using the function. 
+
+Member Function: Function inside the class is known as member function or it is the member 
+                 of that class
+
+Constructor:Constructors are used to initialise the data members of a class.
+
+
+Default Constructor:A default constructor is a constructor that accepts no parameters.
+                    A default constructor is invoked whenever an object of the class is created.
+
+
+Parametrized Constructor:A constructor that accepts parameters is called a parameterised constructor.
+                         A parameterised constructor is invoked only when the object created 
+                         specifies the arguments when it is declared.
+
+Copy  Constructor: Copy Constructor is a type of constructor which is used to 
+                   create a copy of an already existing object of a class type.
+
+
+Destructor: It is preceded by a tilde (~).A destructor takes no arguments, and no return types 
+            can be specified for it- not even void.It is called automatically by the compiler 
+            whenever an object is destroyed.It cleans up the memory or the storage of 
+            the object that is no longer accessible.
+
+
+Static data Structures: Static data members are class members that are declared using the 
+                        static keyword.
+                        There is only one copy of the static data member in the class, even if 
+                        there are many class objects.
+                        This is because all the objects share the static data member.
+
+
+Dynamic Data structures: The 'new' operator is used at the time of dynamic memory allocation
+                         and object construction
+                         The 'delete' operator is used at the time of object deletion to free up 
+                         memory space occupied by objects of a class which are no longer required
+
+Friend Class:  A friend class is a class that can access the private and protected members 
+               of a class in which it is declared as friend.
+
+
+This pointer: 'this' pointer is used in a function or a constructor to refer to a data member of
+               a class having the same name as a local variable of the function or constructor.
+
+Static member function: By declaring a function member as static, you make it independent of 
+                        any particular object of the class.
+                        A static member function can be called even if no objects of the 
+                        class exist 
+                        A static member function can only access static data member.
+
+Inline function: Compiler replaces the definition of inline functions at compile time 
+                 instead of referring function definition at runtime.
+
+Exception Handling: C++ exception handling is built upon three keywords: try, catch and throw.
+                    The process of converting system error messages into user 
+                     friendly error message is known as Exception handling
+
+
+File Handling:  
+   ofstream: This data type represents the output file stream and is used to create file and 
+              to write information to files.
+   ifstream: This data type represents the input file stream and is used to read info from files.
+  
+   fstream: This data type has capabilities of both ofstream and ifstream .
+
+
+For opening a file open() function is used 
+ Modes to open a file :
+       ios::app-Append mode
+       ios::ate-Open a file for output and move the read/write control to the end of the file.
+       ios::in-Open a file for reading 
+       ios::out-Open a file for writing
+       ios::trunc-If the file already exits its contents will be truncated before opening the file
+
+close() function for cloasing a file
+
+
+Template: C++ templates provide a way to re-use source code
+     Class templates: it can support all data types.
+     Function template:Use function templates to write generic functions that can be used 
+                       with arbitrary types. C++ Function templates are those functions which 
+                       can handle different data types without separate code for each of them. 
+
+
+STL(Standard Template Library):Containers Algorithms Iterators
+   
+
+Map Associative Container: Maps are associative containers that store elements formed by a 
+                        combination of a key value and a mapped value, following a specific order.
+
